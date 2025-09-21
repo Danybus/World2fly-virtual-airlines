@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>World2Fly Virtual</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0055a5;
+      color: #fff;
+      padding: 15px 20px;
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+    header nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    header nav a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      padding: 100px 20px;
+      text-align: center;
+    }
+    .home {
+      background: url('https://upload.wikimedia.org/wikipedia/commons/5/54/Airbus_A350-900_World2fly.jpg') no-repeat center center/cover;
+      color: #fff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 1px 1px 5px #000;
+    }
+    .home h1 {
+      font-size: 3rem;
+      margin-bottom: 20px;
+    }
+    .btn {
+      background: #ff6600;
+      color: #fff;
+      padding: 12px 25px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background: #cc5200;
+    }
+    .about, .easy {
+      background: #fff;
+      margin: 40px auto;
+      max-width: 800px;
+      border-radius: 10px;
+      padding: 40px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0055a5;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div><strong>World2Fly Virtual</strong></div>
+      <div>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#easy">Easy to Use</a>
+      </div>
+    </nav>
+  </header>
+
+  <section class="home section" id="home">
+    <h1>Welcome to World2Fly Virtual</h1>
+    <p>Your journey starts here. Fly the world with us!</p>
+    <a class="btn" href="https://newsky.app/airline/68027f89dac6dc5765a9dd05/info" target="_blank">Join Us</a>
+  </section>
+
+  <section class="about section" id="about">
+    <h2>About Us</h2>
+    <p>At World2Fly Virtual, you’re free to choose, fly, and join our community with real WFL routes or free flights. No exam required—join anytime, and learn to fly with us by simply following the rules.</p>
+  </section>
+
+  <section class="easy section" id="easy">
+    <h2>Easy to Use</h2>
+    <p>Experience the best in flight simulation tracking with our NewSky system—easy to use and complete with realistic ACARS.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 World2Fly Virtual. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
